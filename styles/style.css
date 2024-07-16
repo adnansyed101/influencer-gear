@@ -18,6 +18,20 @@ body {
   display: flex;
 }
 
+.btn-primary {
+  padding: 10px 25px;
+  background-color: #e02c6d;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary > i {
+  color: white;
+  margin-left: 5px;
+}
+
 /* Header Styles */
 header {
   margin: 80px;
