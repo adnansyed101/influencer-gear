@@ -66,3 +66,35 @@ nav ul {
 .banner-img img {
   width: 100%;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 565px) {
+  /* NavBar */
+  header {
+    margin: 10px 0;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    gap: 10px;
+    justify-content: center;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .banner-info {
+    text-align: center;
+  }
+
+  .banner .banner-img {
+    margin: 0 50px;
+  }
+}
