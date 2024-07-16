@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+  color: #3a3a3a;
 }
 
 body {
@@ -18,17 +19,20 @@ body {
 }
 
 /* Header Styles */
-nav {
-  justify-content: space-between;
+header {
   margin: 80px;
 }
 
-nav ul {
-    align-items: center;
+nav {
+  justify-content: space-between;
+  margin-bottom: 80px;
+  text-align: center;
 }
 
-nav li {
+nav ul {
+  align-items: center;
+  gap: 32px;
   list-style: none;
-  margin-left: 34px;
-  
+  font-weight: 600;
 }
+
