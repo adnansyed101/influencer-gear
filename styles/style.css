@@ -36,3 +36,33 @@ nav ul {
   font-weight: 600;
 }
 
+/* Banner Styles */
+.banner {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-info {
+  max-width: 600px;
+}
+
+.banner-info h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.banner-info p {
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+.banner .banner-img {
+  background: url("../images/Circle design.svg") no-repeat center;
+  background-size: auto 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.banner-img img {
+  width: 100%;
+}
