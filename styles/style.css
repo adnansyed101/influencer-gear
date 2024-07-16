@@ -6,3 +6,29 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Share Styles */
+.flex {
+  display: flex;
+}
+
+/* Header Styles */
+nav {
+  justify-content: space-between;
+  margin: 80px;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 34px;
+  
+}
